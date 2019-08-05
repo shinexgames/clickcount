@@ -1,0 +1,203 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #24282f;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+
+section:nth-of-type(odd) {
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+section:nth-of-type(even) {
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* font-family: 'Dokdo', cursive;  */
+/* font-family: 'Courgette', cursive; */
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* header - start */
+
+body {
+    background-color: #eeeeee;
+    
+}
+
+.night {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+.night-t {
+    color: #fff !important;
+}
+
+.day {
+    background-color: #ffffff !important;  
+    color: #000000 !important;
+}
+
+.day-t {
+    color: #000000 !important; 
+}
+
+.header {
+    height: 100vh;
+    object-fit: contain;
+    padding: 30px 0px;
+}
+
+.header-title {
+    color: #000;
+}
+
+.header-title b {
+    color: red;
+}
+
+.header-line {
+    width: 30px;
+    border-bottom: 2px solid #888;
+    transition: 0.4s;
+}
+
+.header:hover .header-line {
+    width: 60px;
+    border-bottom: 2px solid #ffb600;
+}
+
+.settings {
+    padding-top: 25px;
+}
+
+.settings-title {
+    font-size: 22px;
+    color: #000000;
+}
+
+.s-b {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.save {
+    margin-top: 8px;
+}
+
+.s-i {
+    padding: 5px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.clickBtn {
+    background: red;
+    padding: 100px;
+    border-radius: 100%;
+   
+}
+
+.amount-text {
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-align-last: left;
+}
+
+.amount {
+    padding-bottom: 70px;
+    font-size: 22px;
+    color: #000000;
+    text-align-last: left;
+}
+
+.clickSet {
+    margin-left: 290px;
+    padding: 150px 0px;
+}
+
+.dayNight {
+    text-decoration: none;
+    color: #Fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 12px 28px;
+    background-color: #888888;
+}
+
+.dayNight:hover {
+    color: #ffffff;
+}
+
+.start {
+    position: relative;
+    top: 100px;
+    padding: 12px 28px;
+}
+
+.info {
+    margin-left: 300px;
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 12px 28px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.save, .save:hover {
+    background-color: #0069d9;
+}
+
+.flex {
+    display: flex;
+}
+
+.error {
+    border: 2px solid red !important;
+}
+
+.hidden {
+    display: none;
+}

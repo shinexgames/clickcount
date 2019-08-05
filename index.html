@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHineX.Clickcount</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+    
+            <h2 class="header-title">
+                <b>SHineX</b>.ClickCount
+            </h2>
+            <div class="header-line"></div>
+    
+            <div class="flex">
+                <div class="settings fadeInLeft hidden col-xl-2 text-center  justify-content-end">
+                    <h2 class="settings-title">
+                        Settings
+                    </h2>
+                    <form>
+                        <p class="s-b">Time</p>
+                        <input type="text" class="s-i timeset" name="time" placeholder="0 sec">
+                        <p class="s-b">Color</p>
+                        <select class="custom-select color my-1 s-i mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Red</option>
+                            <option value="1">Green</option>
+                            <option value="2">Blue</option>
+                            <option value="3">Yellow</option>
+                            <option value="4">Grey</option>
+                            <option value="5">Black</option>
+                        </select>
+                    </form>
+                    <a href="#!" class="btn btn-secondary save ">Save</a>
+                </div>
+    
+                <div class="clickSet hidden fadeInLeft text-center">
+                    <a href="#!" class="clickBtn "></a><br>
+                    <a class="start btn btn-primary hidden fadeInDown" href="#!">START</a>
+                </div>
+                <div class="info hidden fadeInLeft">
+                    <div class="timeBlock">
+                        <label id="minutes" class="minutes"></label><span class="doubledots"></span><label id="seconds" class="seconds">00</label>
+                    </div>
+                    <div class="score-block">
+                        <b class="scoreinfo">Score: <span class="score">0</span></b>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="day-night hidden fadeInDown">
+                <a href="#!" class="dayNight day">Day</a>
+                <a href="#!" class="dayNight night">Night</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="boot">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/colorChange.js"></script>
+    <script src="./js/timer.js"></script>
+    <script src="./js/windowLoad.js"></script>
+    <script src="./js/DayNight.js"></script>
+</body>
+</html>
